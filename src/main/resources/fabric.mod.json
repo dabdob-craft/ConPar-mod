@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "conpar",
+  "version": "${version}",
+  "name": "Conditional Particle Suppressor (ConPar)",
+  "description": "Smartly suppresses non-critical particles based on FPS and player combat status for better performance.",
+  "authors": [
+    "dabdob_craft"
+  ],
+  "license": "MIT",
+  "icon": "assets/conpar/conpar-icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.dabdob_craft.conpar.ConParMod"
+    ]
+  },
+  "mixins": [
+    "conpar.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.16.5 <1.22",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
