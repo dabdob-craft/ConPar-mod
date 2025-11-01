@@ -8,7 +8,7 @@
     "dabdob_craft"
   ],
   "license": "MIT",
-  "icon": "assets/conpar/conpar-icon.png",
+  "icon": "assets/conpar/conpar-icon.png", 
   "environment": "client",
   "entrypoints": {
     "client": [
