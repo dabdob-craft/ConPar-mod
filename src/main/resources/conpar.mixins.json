@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.dabdob_craft.conpar.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ParticleManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
